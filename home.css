@@ -1,0 +1,183 @@
+* {
+  padding: 0%;
+
+  margin: 0%;
+
+  box-sizing: border-box;
+
+  background-color: black;
+}
+
+img {
+  position: absolute;
+
+  left: 600px;
+
+  top: 100px;
+
+  animation-name: img;
+
+  animation-duration: 6s;
+
+  animation-fill-mode: forwards;
+}
+
+.continue {
+  color: white;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  position: absolute;
+
+  left: 840px;
+
+  top: 550px;
+
+  animation-name: title;
+
+  animation-duration: 6s;
+
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: forwards;
+
+  /* animation-name:fade; 
+
+    animation-duration:4s; */
+}
+
+.new-game {
+  color: white;
+
+  position: absolute;
+
+  left: 832px;
+
+  top: 600px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  animation-name: title;
+
+  animation-duration: 6s;
+
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: forwards;
+
+  /* animation-name:fade; 
+
+     animation-duration:4s; */
+}
+
+.options {
+  color: white;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  position: absolute;
+
+  left: 847px;
+
+  top: 650px;
+
+  animation-name: title;
+
+  animation-duration: 6s;
+
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: forwards;
+
+  /* animation-name:fade; 
+
+    animation-duration:4s; 
+
+    animation-fill-mode:forwards; */
+}
+
+.credits {
+  color: white;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  position: absolute;
+
+  left: 853px;
+
+  top: 700px;
+
+  animation-name: title;
+
+  animation-duration: 6s;
+
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: forwards;
+
+  /* animation-name:fade; 
+
+    animation-duration:4s; 
+
+  */
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes title {
+  0% {
+    color: rgb(202, 73, 51);
+  }
+
+  20% {
+    color: rgb(167, 45, 45);
+  }
+
+  40% {
+    color: rgb(201, 114, 33);
+  }
+
+  60% {
+    color: rgb(238, 132, 11);
+  }
+
+  80% {
+    color: rgb(223, 186, 65);
+  }
+
+  100% {
+    color: rgb(202, 73, 51);
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes img {
+  0% {
+    top: -400px;
+  }
+
+  25% {
+    top: 130px;
+  }
+
+  50% {
+    top: 130px;
+  }
+
+  75% {
+    top: 130px;
+  }
+
+  100% {
+    top: 130px;
+  }
+}
