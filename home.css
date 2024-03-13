@@ -1,44 +1,30 @@
 * {
   padding: 0%;
-
   margin: 0%;
-
   box-sizing: border-box;
-
   background-color: black;
 }
 
 img {
   position: absolute;
-
-  left: 600px;
-
+  left: 950px;
   top: 100px;
 
   animation-name: img;
-
   animation-duration: 6s;
-
   animation-fill-mode: forwards;
 }
 
 .continue {
   color: white;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   position: absolute;
-
-  left: 840px;
-
+  left: 1190px;
   top: 550px;
 
   animation-name: title;
-
   animation-duration: 6s;
-
   animation-iteration-count: infinite;
-
   animation-fill-mode: forwards;
 
   /* animation-name:fade; 
@@ -48,21 +34,14 @@ img {
 
 .new-game {
   color: white;
-
   position: absolute;
-
-  left: 832px;
-
+  left: 1178px;
   top: 600px;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   animation-name: title;
-
   animation-duration: 6s;
-
   animation-iteration-count: infinite;
-
   animation-fill-mode: forwards;
 
   /* animation-name:fade; 
@@ -72,21 +51,14 @@ img {
 
 .options {
   color: white;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   position: absolute;
-
-  left: 847px;
-
+  left: 1196px;
   top: 650px;
 
   animation-name: title;
-
   animation-duration: 6s;
-
   animation-iteration-count: infinite;
-
   animation-fill-mode: forwards;
 
   /* animation-name:fade; 
@@ -98,21 +70,14 @@ img {
 
 .credits {
   color: white;
-
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
   position: absolute;
-
-  left: 853px;
-
+  left: 1198px;
   top: 700px;
 
   animation-name: title;
-
   animation-duration: 6s;
-
   animation-iteration-count: infinite;
-
   animation-fill-mode: forwards;
 
   /* animation-name:fade; 
