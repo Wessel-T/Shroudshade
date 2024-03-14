@@ -1,7 +1,7 @@
 var config = {
     type: Phaser.AUTO,
     width: 2600,
-    height: 1200,
+    height: 1300,
     scene: {
         preload: preload,
         create: create,
@@ -20,7 +20,7 @@ function preload ()
     this.load.image('bomb', 'img/bomb.png');
     this.load.spritesheet('dude', 
         'img/dude.png',
-        { frameWidth: 62, frameHeight: 48 }
+        { frameWidth: 32, frameHeight: 48 }
     );
 }
 

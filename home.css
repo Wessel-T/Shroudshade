@@ -28,6 +28,7 @@ main {
 
 img {
   position: absolute;
+  left: 970px;
 
   animation-name: img;
   animation-duration: 6s;
