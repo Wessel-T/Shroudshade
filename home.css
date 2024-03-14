@@ -102,6 +102,16 @@ a {
 }
 
 @keyframes title {
+
+  
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+  
   0% {
     color: rgb(202, 73, 51);
   }
@@ -126,13 +136,6 @@ a {
     color: rgb(202, 73, 51);
   }
 
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes img {
