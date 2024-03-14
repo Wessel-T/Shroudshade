@@ -5,10 +5,29 @@
   background-color: black;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    ". . ."
+    ". hd ."
+    ". mn ."
+    ". mn .";
+}
+
+header {
+  grid-area: hd;
+}
+
+main {
+  grid-area: mn;
+  position: relative;
+  text-align: center;
+  top: 550px;
+}
+
 img {
   position: absolute;
-  left: 950px;
-  top: 100px;
 
   animation-name: img;
   animation-duration: 6s;
@@ -16,11 +35,9 @@ img {
 }
 
 .continue {
+  grid-area: con;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  left: 1190px;
-  top: 550px;
 
   animation-name: title;
   animation-duration: 6s;
@@ -34,9 +51,7 @@ img {
 
 .new-game {
   color: white;
-  position: absolute;
-  left: 1178px;
-  top: 600px;
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   animation-name: title;
@@ -52,9 +67,6 @@ img {
 .options {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  left: 1196px;
-  top: 650px;
 
   animation-name: title;
   animation-duration: 6s;
@@ -71,9 +83,6 @@ img {
 .credits {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  left: 1198px;
-  top: 700px;
 
   animation-name: title;
   animation-duration: 6s;
