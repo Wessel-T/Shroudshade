@@ -21,13 +21,12 @@ var game = new Phaser.Game(config);
 
 function preload() {
     this.load.image('sky', 'img/wall resized.png');
-    
     this.load.image('ground', 'img/brick platform.png');
     this.load.image('star', 'img/coin.png');
     this.load.image('bomb', 'img/fireball.png');
     this.load.spritesheet('dude',
-        'img/dude.png',
-        { frameWidth: 32, frameHeight: 48 }
+        'img/yes_knight-removebg-preview.png',
+        { frameWidth: 49, frameHeight: 48 }
     );
 }
 
