@@ -39,7 +39,7 @@ function create() {
 
     platforms = this.physics.add.staticGroup();
 
-    platforms.create(570, 680, 'ground').setScale(2).refreshBody();
+    platforms.create(590, 680, 'ground').setScale(2).refreshBody();
 
    
     platforms.create(750, 500, 'ground');
