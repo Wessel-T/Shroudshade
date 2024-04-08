@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        ". . ."
+        ". hd ."
+        ". mn ."
+        ". mn .";
+}
+
+header {
+    grid-area: hd;
+}
+
+main {
+    grid-area: mn;
+    position: relative;
+    text-align: center;
+    top: 550px;
+}
+
+img {
+    position: absolute;
+    left: 650px;
+}
+
+.display {
+    grid-area: con;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.audio {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.difficulty {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2{
+
+}
+
+p{
+     color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

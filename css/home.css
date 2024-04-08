@@ -28,7 +28,7 @@ main {
 
 img {
   position: absolute;
-  left: 450px;
+  left: 65 0px;
 
   animation-name: img;
   animation-duration: 6s;
@@ -110,6 +110,7 @@ a {
 
   100% {
     opacity: 1;
+    
   }
   
   0% {
