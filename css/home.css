@@ -1,0 +1,23 @@
+*{
+background-color: grey;
+}
+
+body{
+    width: 100%;
+
+    display: flex;
+  
+    justify-content: center;
+}
+
+.game{
+    width:100%;
+    margin: 0px auto;
+
+
+}
+
+.game2{
+    
+}
+
